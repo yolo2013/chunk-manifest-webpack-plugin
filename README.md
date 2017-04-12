@@ -1,6 +1,6 @@
 # chunk-manifest-inject2html-webpack-plugin
 
-The only difference is when you use [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin#events). It will inject the manifest json to you html instead of generate a json file. So you can cache the runtime file even manifest file changed everytimes.
+The only difference is when you use [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin#events). It will inject the manifest json to you html instead of generate a json file. So you can cache the runtime file even manifest file changed everytime.
 
 > Use [chunk-manifest-webpack-plugin](https://github.com/soundcloud/chunk-manifest-webpack-plugin) instead if you don't need this further.
 ## Usage
