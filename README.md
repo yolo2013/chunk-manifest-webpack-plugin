@@ -21,7 +21,7 @@ And then require and provide to webpack:
 
 ```javascript
 // in webpack.config.js or similar
-var ChunkManifestPlugin = require('chunk-manifest-webpack-plugin');
+var ChunkManifestPlugin = require('chunk-manifest-inject2html-webpack-plugin');
 
 module.exports = {
   // your config values here
