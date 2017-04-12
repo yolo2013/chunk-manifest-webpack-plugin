@@ -1,6 +1,6 @@
 {
   "name": "chunk-manifest-inject2html-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows exporting a manifest that maps chunk ids to their output files, instead of keeping the mapping inside the webpack bootstrap. And can auto inject manifest json to html if you use html-webpack-plugin.",
   "main": "lib/ChunkManifestPlugin.js",
   "scripts": {
