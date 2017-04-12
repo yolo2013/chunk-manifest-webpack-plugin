@@ -1,19 +1,20 @@
-# chunk-manifest-webpack-plugin
+# chunk-manifest-inject2html-webpack-plugin
 
-Allows exporting a JSON file that maps chunk ids to their resulting asset files. Webpack can then read this mapping, assuming it is provided somehow on the client, instead of storing a mapping (with chunk asset hashes) in the bootstrap script, which allows to actually leverage long-term caching.
+The only difference is when you use [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin#events). Now, it will inject the manifest json to you html. So you can cache the runtime file even manifest file will changed everytime.
 
+> Use [chunk-manifest-webpack-plugin](https://github.com/soundcloud/chunk-manifest-webpack-plugin) instead if you don't need this further.
 ## Usage
 
 Install via npm:
 
 ```shell
-npm install chunk-manifest-webpack-plugin
+npm install chunk-manifest-inject2html-webpack-plugin
 ```
 
 Install via yarn:
 
 ```shell
-yarn add chunk-manifest-webpack-plugin
+yarn add chunk-manifest-inject2html-webpack-plugin
 ```
 
 And then require and provide to webpack:

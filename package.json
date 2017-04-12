@@ -1,27 +1,28 @@
 {
-  "name": "chunk-manifest-webpack-plugin",
-  "version": "1.0.0",
-  "description": "Allows exporting a manifest that maps chunk ids to their output files, instead of keeping the mapping inside the webpack bootstrap.",
+  "name": "chunk-manifest-inject2html-webpack-plugin",
+  "version": "1.0.1",
+  "description": "Allows exporting a manifest that maps chunk ids to their output files, instead of keeping the mapping inside the webpack bootstrap. And can auto inject manifest json to html if you use html-webpack-plugin.",
   "main": "lib/ChunkManifestPlugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jason Anderson <diurnalist@gmail.com> (http://diurnal.st)",
+  "author": "HuaXu <xuhua.yolo@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "webpack-core": "^0.6.9"
+    "webpack-core": "^0.6.9",
+    "cheerio": "^0.22.0"
   },
   "peerDependencies": {
     "webpack": "^2.0.0 || ^2.1.0-beta || ^2.2.0-rc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diurnalist/chunk-manifest-webpack-plugin.git"
+    "url": "git+https://github.com/yolo2013/chunk-manifest-webpack-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/diurnalist/chunk-manifest-webpack-plugin/issues"
+    "url": "https://github.com/yolo2013/chunk-manifest-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/diurnalist/chunk-manifest-webpack-plugin#readme",
+  "homepage": "https://github.com/yolo2013/chunk-manifest-webpack-plugin#readme",
   "devDependencies": {},
   "keywords": [
     "webpack",
